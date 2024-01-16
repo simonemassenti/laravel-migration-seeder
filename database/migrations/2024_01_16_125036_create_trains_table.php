@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('stazione_partenza');
             $table->string('stazione_arrivo');
             $table->date('data_partenza');
-            $table->time('oraio_partenza');
+            $table->time('orario_partenza');
             $table->time('orario_arrivo');
             $table->string('codice_treno', 6);
             $table->tinyInteger('numero_carrozze')->unsigned();
